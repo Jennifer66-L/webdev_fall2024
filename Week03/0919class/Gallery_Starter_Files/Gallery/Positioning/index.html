@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Positioning</title>
+    <style type="text/css">
+    .red{
+        background-color: red;
+    }
+    .green{
+        background-color: green;
+    }
+    .yellow{
+        background-color: yellow;
+    }
+    .blue{
+        background-color: blue;
+    }
+    .relative{
+        position: relative;
+    }
+    .absolute{
+        position: absolute;
+    }
+    .fixed{
+        position: fixed;
+    }
+
+    .top{
+        top: 0;
+    }
+
+    .bottom{
+        bottom: 0;
+    }
+
+    .left{
+        left: 0;
+    }
+
+    .right{
+        right: 0;
+
+    }
+
+    .top-50{
+        top: 50px;
+        
+    }
+
+    .right-50{
+        right:50px;
+    }
+
+    .bottom{
+        bottom: 50px;
+    }
+
+
+    </style>
+  </head>
+  <body>
+    <div class="red relative top-50">Relative</div>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec mauris non massa commodo scelerisque. Mauris aliquam, risus eget commodo auctor, libero diam viverra libero, ut finibus augue nibh et augue. Curabitur dignissim fermentum est ut varius. Morbi ac lectus eros. Ut ut elementum mauris. Sed a est sodales, bibendum tortor in, vehicula risus. Fusce tincidunt felis nec commodo ullamcorper. Etiam varius, massa nec scelerisque sodales, ex tortor pharetra lacus, ut gravida leo ex blandit massa. Quisque auctor facilisis nisi ut sollicitudin.
+    </p>
+    <div class="green absolute top-50">Absolute</div>
+    <div class="yellow fixed top-50">Fixed</div>
+    <div class="blue realtive" style="width: 500px; height: 500px;">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec mauris non massa commodo scelerisque. Mauris aliquam, risus eget commodo auctor, libero diam viverra libero, ut finibus augue nibh et augue. Curabitur dignissim fermentum est ut varius. Morbi ac lectus eros. Ut ut elementum mauris. Sed a est sodales, bibendum tortor in, vehicula risus. Fusce tincidunt felis nec commodo ullamcorper. Etiam varius, massa nec scelerisque sodales, ex tortor pharetra lacus, ut gravida leo ex blandit massa. Quisque auctor facilisis nisi ut sollicitudin.</p>
+        <div class="red absolute top-50 right-50">absolute realtive parent</div>
+        <div class="green fixed bottom-50 left-50">fixed position, same relative parent</div>
+    </div>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec mauris non massa commodo scelerisque. Mauris aliquam, risus eget commodo auctor, libero diam viverra libero, ut finibus augue nibh et augue. Curabitur dignissim fermentum est ut varius. Morbi ac lectus eros. Ut ut elementum mauris. Sed a est sodales, bibendum tortor in, vehicula risus. Fusce tincidunt felis nec commodo ullamcorper. Etiam varius, massa nec scelerisque sodales, ex tortor pharetra lacus, ut gravida leo ex blandit massa. Quisque auctor facilisis nisi ut sollicitudin.
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec mauris non massa commodo scelerisque. Mauris aliquam, risus eget commodo auctor, libero diam viverra libero, ut finibus augue nibh et augue. Curabitur dignissim fermentum est ut varius. Morbi ac lectus eros. Ut ut elementum mauris. Sed a est sodales, bibendum tortor in, vehicula risus. Fusce tincidunt felis nec commodo ullamcorper. Etiam varius, massa nec scelerisque sodales, ex tortor pharetra lacus, ut gravida leo ex blandit massa. Quisque auctor facilisis nisi ut sollicitudin.
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec mauris non massa commodo scelerisque. Mauris aliquam, risus eget commodo auctor, libero diam viverra libero, ut finibus augue nibh et augue. Curabitur dignissim fermentum est ut varius. Morbi ac lectus eros. Ut ut elementum mauris. Sed a est sodales, bibendum tortor in, vehicula risus. Fusce tincidunt felis nec commodo ullamcorper. Etiam varius, massa nec scelerisque sodales, ex tortor pharetra lacus, ut gravida leo ex blandit massa. Quisque auctor facilisis nisi ut sollicitudin.
+    </p>
+  </body>
+</html>

@@ -1,1 +1,1 @@
-Keep in mind this will be published on GitHub in a few minutes. So keep it professional.
+This includes my weekly homework, in-class exerciese, and some notes. 
