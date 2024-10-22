@@ -9,7 +9,7 @@ body {
     background-color: #000;
 }
 
-/* Sticky Transparent NavBar */
+/* Sticky NavBar */
 #navbar {
     position: fixed;
     top: 20px;
@@ -32,7 +32,6 @@ body {
     color: #FF80B4;
 }
 
-/* Smooth Scrolling Effect */
 html {
     scroll-behavior: smooth;
 }
@@ -122,10 +121,10 @@ section {
 /* General image styling */
 .thumb img,
 .thumb video {
-    width: 100%; /* Fill the width of the container */
-    height: auto; /* Set a fixed height for uniformity */
-    border: none; /* No border */
-    padding: 0; /* Remove any padding */
+    width: 100%; 
+    height: auto; 
+    border: none; 
+    padding: 0; 
     object-fit: cover; /* Ensure image/video covers the container */
 }
 
@@ -137,7 +136,7 @@ section {
 
 /* Adjust the video size to match images in .thumb */
 .thumb video {
-    display: block; /* Ensure it's not inline */
+    display: block; 
     object-fit: cover; /* Ensures the video covers the thumb container */
 }
 
@@ -145,8 +144,8 @@ section {
 .view-more {
   
     text-align: center;
-    margin: 20px 0; /* Add margin to separate from the gallery */
-    width: 100%; /* Ensure it takes full width */
+    margin: 20px 0; 
+    width: 100%; 
 }
 
 .view-more a {
@@ -161,19 +160,19 @@ section {
 }
 
 .view-more a:hover {
-    background-color: #FF80B4; /* Slightly darker on hover */
+    background-color: #FF80B4; 
 }
 
 .container {
-    width: 80%; /* Reduced width for larger side margins */
+    width: 80%; 
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center; 
     margin: 40px 10%;
-    background-color: #111; /* Gallery background color */
+    background-color: #111; 
     padding: 20px;
-    position: relative; /* Allows for absolute positioning of inner elements */
+    position: relative; 
 }
 
 .contact-title {
@@ -261,13 +260,13 @@ footer {
 /* Responsive adjustments */
 @media (max-width: 768px) {
     .thumb {
-        width: 45%; /* Make thumbnails wider on small screens */
+        width: 45%; 
         margin: 1rem;
     }
 
     .view-more a {
-        padding: 12px 25px; /* Increase padding for better touch targets on mobile */
-        font-size: 1.1rem; /* Slightly smaller font size for tablets */
+        padding: 12px 25px; 
+        font-size: 1.1rem; 
     }
 
     .contact .contact-container {
@@ -281,13 +280,13 @@ footer {
 
 @media (max-width: 480px) {
     .thumb {
-        width: 90%; /* Single-column layout for very small screens */
+        width: 90%; 
         margin: 1rem auto;
     }
 
     .view-more a {
-        padding: 10px 15px; /* Adjust padding for smaller screens */
-        font-size: 1rem; /* Smaller font size for mobile devices */
+        padding: 10px 15px; 
+        font-size: 1rem; 
     }
 }
 
