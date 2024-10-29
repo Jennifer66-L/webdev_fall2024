@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jenn's Recipe Page</title>
+    
+    <style type="text/css">
+        body {
+    font-family: 'Open Sans', Arial, sans-serif;
+    background-color: #fafafa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #5c2a9d;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 2.5em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #3c1859;
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav a {
+    color: #e1ccec;
+    font-size: 1.2em;
+    text-decoration: none;
+    margin: 0 30px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ffd700;
+}
+
+/* Main Layout */
+main {
+    display: flex;
+    padding: 40px 5%;
+    gap: 30px;
+}
+
+article {
+    flex: 70%;
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+aside {
+    flex: 25%;
+    background-color: #f3f3f3;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+h2, h3 {
+    color: #5c2a9d;
+    margin-bottom: 15px;
+}
+
+h3 {
+    margin-top: 40px;
+}
+
+/* Ingredient and Instruction Styling */
+ul, ol {
+    padding-left: 20px;
+}
+
+ul li, ol li {
+    background-color: #f9f9f9;
+    margin: 10px 0;
+    padding: 12px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+ul li:hover, ol li:hover {
+    background-color: #ffe4e1;
+}
+
+.prep-info {
+    background-color: #f0e6ff;
+    padding: 20px;
+    border-left: 5px solid #5c2a9d;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+/* Footer */
+footer {
+    background-color: #3c1859;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 30px;
+    font-size: 0.9em;
+}
+
+footer p {
+    margin: 0;
+}
+
+a {
+    color: #5c2a9d;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #ff6347;
+}
+
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>JENN'S CAFE</h1>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Recipes</a>
+    <a href="#">About Us</a>
+    <a href="#">Contact</a>
+</nav>
+
+<main>
+    <article>
+        <h2>Spaghetti Bolognese</h2>
+        <div class="prep-info">
+            <p><strong>Prep Time:</strong> 15 minutes</p>
+            <p><strong>Cook Time:</strong> 45 minutes</p>
+            <p><strong>Serves:</strong> 4 people</p>
+        </div>
+
+        <h3>Ingredients</h3>
+        <ul>
+            <li>400g spaghetti</li>
+            <li>200g minced beef</li>
+            <li>1 onion, chopped</li>
+            <li>2 garlic cloves, minced</li>
+            <li>400g canned tomatoes</li>
+            <li>2 tbsp olive oil</li>
+            <li>Salt and pepper to taste</li>
+            <li>Grated Parmesan (optional)</li>
+        </ul>
+
+        <h3>Instructions</h3>
+        <ol>
+            <li>Heat olive oil in a large pan and sauté the onions and garlic until soft.</li>
+            <li>Add the minced beef and cook until browned.</li>
+            <li>Stir in the canned tomatoes and simmer for 30 minutes.</li>
+            <li>Meanwhile, cook the spaghetti according to the package instructions.</li>
+            <li>Drain the spaghetti and mix with the sauce.</li>
+            <li>Serve with grated Parmesan on top if desired.</li>
+        </ol>
+        
+    </article>
+
+    <aside>
+        <h3>Related Recipes</h3>
+        <ul>
+            <li><a href="#">Vegetarian Lasagna</a></li>
+            <li><a href="#">Chicken Alfredo</a></li>
+            <li><a href="#">Shrimp Scampi</a></li>
+            <li><a href="#">Beef Stroganoff</a></li>
+        </ul>
+    </aside>
+</main>
+
+<footer>
+    <p>&copy; 2024 Jenn's Best Recipes. All Rights Reserved.</p>
+</footer>
+
+</body>
+
